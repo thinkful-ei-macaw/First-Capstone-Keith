@@ -1,0 +1,77 @@
+body {
+    background-color: gainsboro;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+  }
+  
+nav li {
+    float: left;
+  }
+  
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  h1 {
+      text-align: center;
+  }
+
+.mainImage {
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+}
+
+.sort li {
+    display: inline;
+    margin: 6px;
+}
+
+.create {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+form {
+    margin: 15px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+input {
+    padding: 12px, 20px;
+    margin: 8px 10px;
+    box-sizing: border-box;
+}
+
+#password {
+    margin: 8px 13px;
+}
+
+.monsterImage {
+    position: absolute;
+    right: 0px;
+    padding: 12px;
+    justify-content: right;
+}
+
+#newComment {
+    width: 50%;
+    height: 80px;
+}
